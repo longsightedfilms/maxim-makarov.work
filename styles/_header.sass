@@ -1,0 +1,36 @@
+.header
+  background: url('/images/header-bg.jpg') no-repeat center top / cover
+  color: $white
+  padding-bottom: 5rem
+  &__nav
+    display: flex
+    align-items: center
+    padding: 1rem 2rem
+    margin: 0 auto
+  .brand
+    display: flex
+    flex-direction: column
+    text-transform: uppercase
+    text-align: center
+    font-weight: 700
+    font-size: 1.75rem
+    margin-right: auto
+    &__subtitle
+      font-size: 1rem
+      font-weight: 100
+      letter-spacing: 0.25rem
+  .nav-link
+    padding: 0.5rem
+    text-transform: uppercase
+    letter-spacing: 0.125rem
+    font-weight: 700
+    transition: all 0.3s ease
+    &:hover
+      color: $primary
+  &__jumbotron
+    margin: 0 auto
+    max-width: 600px
+    .description
+      font-size: 1.5rem
+      text-align: center
+      filter: drop-shadow(0 0 4px $black)

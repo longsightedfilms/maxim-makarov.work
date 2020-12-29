@@ -1,0 +1,45 @@
+@media (min-width: 1200px)
+  .header
+    &__nav
+      max-width: 1140px
+  .block__container
+    max-width: 1140px
+  .footer
+    &__container
+      max-width: 1140px
+@media (min-width: 768px) and (max-width: 991px)
+  .header
+    .nav-link
+      padding: 0.5rem 0.25rem
+  .card
+    &--price
+      flex: 0 0 calc(50% - 2rem)
+@media (max-width: 767px)
+  .header
+    &__nav
+      flex-direction: column
+    .brand
+      margin: 0 auto 1rem
+  .img
+    &--jumbotron
+      width: 300px
+      margin: 1rem auto
+  .button-group
+    flex-direction: column
+    .button
+      margin-bottom: 0.5rem
+      margin-right: 0
+      &:last-child
+        margin-bottom: 0
+  .block
+    &--about-me
+      .column
+        flex: 0 0 100%
+  .card
+    &--portfolio, &--price
+      flex: 0 0 calc(100% - 2rem)
+  .footer
+    &__container
+      flex-wrap: wrap
+      .column
+        flex: 0 0 100%

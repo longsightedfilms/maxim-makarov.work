@@ -1,0 +1,30 @@
+.block
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+  margin: 0 auto
+  &--about-me
+    font-size: 1.125rem
+    .block__title
+      flex: 0 0 100%
+      text-align: center
+    .column
+      padding: 0 1rem
+      flex: 0 0 calc(50% - 1rem)
+  &__container
+    position: relative
+    z-index: 1
+    margin: -3rem auto 0
+    background: $white
+    box-shadow: 0 0 20px $black
+  &--portfolio
+    padding: 0 1rem
+    justify-content: flex-start
+    .block__title
+      flex: 0 0 100%
+      text-align: center
+  &--pricing
+    padding: 0 1rem
+    .block__title
+      flex: 0 0 100%
+      text-align: center
