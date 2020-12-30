@@ -24,6 +24,19 @@ const Home: React.FunctionComponent<IndexPageProps> = ({
         <meta property="og:image:alt" content="Maxim Makarov" />
         <meta property="og:description" content="Junior front-end разработчик, 1.5 года опыта. Vue.js, React, Svelte, Next.js, Nuxt.js" />
         <meta property="og:site_name" content="Максим Макаров - Frontend Developer" />
+        <script src="/js/metrika.js" />
+        <noscript>
+          <div>
+            <img
+              src="https://mc.yandex.ru/watch/70900201"
+              style={{
+                position: 'absolute',
+                left: '-9999px'
+              }}
+              alt=""
+            />
+          </div>
+        </noscript>
       </Head>
 
       <main className="block__container">
